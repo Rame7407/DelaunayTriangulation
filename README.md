@@ -37,7 +37,8 @@
 
 ## Визуализация триангуляции
 Код создает графическое представление триангуляции Делоне для случайного набора точек и отображает эту информацию на экране, включая отображение треугольников и самих точек, а также информации о времени выполнения.
-Визуализация здесь
+Визуализация здесь:
+[src/delauney/DelaunayVisualization.java](https://github.com/Rame7407/DelaunayTriangulation/blob/master/src/delauney/DelaunayVisualization.java)
 
 Описание работы кода:
 * Инициализация и ввод данных:
@@ -64,10 +65,10 @@
 ## Примеры работы
 Триангуляция 10 точек 
 Время работы:
-![Example 1](Renders/Example.png "Title")
+![Example 1](src/examples/10.png "Title")
 Триангуляция 10 тысяч точек
 Время работы:
-![Example 2](Renders/Million%20points.png "Title")
+![Example 2](src/examples/10000.png "Title")
 Триангуляция 1млн точек
 Время работы:
-![Example 2](Renders/Million%20points.png "Title")
+![Example 2](src/examples/1000000.png "Title")
